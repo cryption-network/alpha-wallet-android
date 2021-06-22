@@ -5,10 +5,6 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/mercury" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +19,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginStart="@dimen/dp16"
             android:text="@string/balance"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             android:gravity="start"
             android:textSize="@dimen/sp13"/>
@@ -44,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/font_semibold"
                 android:gravity="start"
-                android:textColor="@color/black"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/sp16"
                 custom:layout_constraintStart_toStartOf="parent"
                 custom:layout_constraintTop_toTopOf="parent"
@@ -57,7 +53,7 @@
                 android:layout_marginTop="3dp"
                 android:fontFamily="@font/font_regular"
                 android:gravity="start"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/sp15"
                 custom:layout_constraintStart_toStartOf="parent"
                 custom:layout_constraintTop_toBottomOf="@id/text_balance"

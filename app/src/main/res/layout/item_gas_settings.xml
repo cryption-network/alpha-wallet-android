@@ -7,8 +7,8 @@
     android:background="@drawable/background_card">
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
         android:background="@color/mercury" />
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_weight="1.1"
             android:layout_marginStart="@dimen/dp16"
             android:text="@string/speed_gas"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             android:lines="1"
             android:gravity="start"
@@ -82,7 +82,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3.1"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_semibold"
             android:text="@string/speed_average"
             android:gravity="start"
@@ -95,7 +95,7 @@
             android:layout_weight="0.6"
             android:fontFamily="@font/font_semibold"
             android:gravity="center_horizontal"
-            android:textColor="@color/azure"
+            android:textColor="@color/cry_purple"
             android:lines="1"
             android:textSize="@dimen/sp17"
             android:text="@string/edit"
@@ -121,7 +121,7 @@
             android:layout_weight="3.4"
             android:layout_marginStart="@dimen/dp16"
             android:layout_marginTop="3dp"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             android:gravity="start"
             tools:text="&lt; 0.003 ETH ($0.55 USD)≈2 minutes"

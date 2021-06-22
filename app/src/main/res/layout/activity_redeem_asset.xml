@@ -45,7 +45,7 @@
             android:padding="15dp"
             android:text="@string/action_next"
             android:textAllCaps="false"
-            android:textColor="@color/button_text_color"
+            android:textColor="@color/text_white"
             android:textSize="20sp" />
 
         <Button
@@ -59,7 +59,7 @@
             android:padding="15dp"
             android:text="@string/action_redeem"
             android:textAllCaps="false"
-            android:textColor="@color/button_text_color"
+            android:textColor="@color/text_white"
             android:textSize="20sp"
             android:visibility="gone" />
 

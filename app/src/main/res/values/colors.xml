@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="colorPrimary">#FFFFFF</color>
-	<color name="colorPrimaryDark">#707070</color>
-	<color name="colorAccent">#54C1E3</color>
+	<color name="colorPrimary">@color/cry_dark</color>
+	<color name="colorPrimaryDark">@color/cry_secondary_bg</color>
+	<color name="colorAccent">@color/cry_purple</color>
 	<color name="colorPrimaryLight">#AA54C1E3</color>
-	<color name="colorTheme">#FFFFFF</color>
+	<color name="colorTheme">#222430</color>
 	<color name="colorHighlight">@color/azure</color>
 
 	<color name="secondary_text">#40000000</color>
@@ -26,7 +26,7 @@
 	<color name="button_pressed_colour">#b4cd99</color>
 	<color name="button_disabled_colour">#b4cd99</color>
 	<color name="semi_dark_grey">#707070</color>
-	<color name="text_black">#2f2f2f</color>
+	<color name="text_white">#FFFFFF</color>
 	<color name="text_dark_gray">#4a4a4a</color>
 	<color name="text_light_gray">#686767</color>
 	<color name="light_gray">#9b9b9b</color>
@@ -48,7 +48,7 @@
 	<color name="greye_faint">#00e5e5e5</color>
 	<color name="card_shadow">#3d000000</color>
 	<color name="card_outer">#1e000000</color>
-	<color name="grey_bar">#ebebeb</color>
+	<color name="grey_bar">#303242</color>
 	<color name="unselected_grey">#8a000000</color>
 	<color name="greyffive">#f5f5f5</color>
 	<color name="greye9">#e9e9e9</color>
@@ -100,7 +100,7 @@
 	<color name="optimistic_test">#FA7383</color>
 
 	<!-- Fiji Colour Palette -->
-	<color name="black">#000000</color>
+	<color name="black">#FFFFFF</color>
 	<color name="mine">#2f2f2f</color>
 	<color name="dove">#727272</color>
 	<color name="dusty">#999999</color>
@@ -109,8 +109,8 @@
 	<color name="alto">#e0e0e0</color>
 	<color name="mercury">#e9e9e9</color>
 	<color name="concrete">#f2f2f2</color>
-	<color name="alabaster">#fbfbfb</color>
-	<color name="white">#ffffff</color>
+	<color name="alabaster">#1A1B23</color>
+	<color name="white">#1E202A</color>
 	<color name="solitude">#e6f3ff</color>
 	<color name="azure">#007fed</color>
 	<color name="azure_hover">#1993fd</color>
@@ -161,4 +161,18 @@
 	<color name="grey_8d">#8d8d8d</color>
     <color name="greyf3">#f3f4f5</color>
 	<color name="logo_grey">#F2F4F7</color>
+
+<!--	Cryption Colors-->
+	<color name="cry_purple">#9900FF</color>
+	<color name="cry_dark">#1B1B23</color>
+	<color name="cry_dark_overlay">#292B38</color>
+	<color name="cry_secondary_bg">#1E202A</color>
+	<color name="cry_gradient">
+		<item name="android:startColor">#2082E9</item>
+		<item name="android:endColor">#9900FF</item>
+		<item name="android:angle">160</item>
+	</color>
+	<color name="nav_text_color">#BCBCBC</color>
+
+
 </resources>

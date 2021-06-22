@@ -38,7 +38,7 @@
                     android:paddingEnd="16dp"
                     android:text="@string/mainnet"
                     android:textAllCaps="true"
-                    android:textColor="@color/dove"
+                    android:textColor="@color/text_white"
                     android:textSize="15sp" />
 
                 <com.google.android.material.switchmaterial.SwitchMaterial
@@ -75,7 +75,7 @@
                     android:paddingEnd="16dp"
                     android:text="@string/testnet"
                     android:textAllCaps="true"
-                    android:textColor="@color/dove"
+                    android:textColor="@color/text_white"
                     android:textSize="15sp" />
 
                 <com.google.android.material.switchmaterial.SwitchMaterial

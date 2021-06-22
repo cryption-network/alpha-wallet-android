@@ -60,7 +60,7 @@ public class WalletHolder extends BinderViewHolder<Wallet> implements View.OnCli
 		clickCallback = callback;
 		manageWalletLayout = findViewById(R.id.layout_manage_wallet);
 		greyColor = parent.getContext().getColor(R.color.greyffive);
-		blackColor = parent.getContext().getColor(R.color.text_black);
+		blackColor = parent.getContext().getColor(R.color.black);
 		this.realm = realm;
 	}
 

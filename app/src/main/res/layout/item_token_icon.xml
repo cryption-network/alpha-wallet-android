@@ -71,7 +71,7 @@
         android:fontFamily="@font/font_bold"
         android:gravity="center"
         android:lines="1"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:visibility="gone"
         app:autoSizeMaxTextSize="@dimen/sp13"
         app:autoSizeMinTextSize="@dimen/sp12"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorTheme"
+    android:background="@color/cry_dark"
     android:orientation="vertical">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -30,26 +30,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:background="@drawable/background_tab_layout"
-            android:paddingStart="12dp"
             app:layout_scrollFlags="enterAlways"
             app:tabGravity="center"
-            app:tabIndicatorColor="@color/colorHighlight"
             app:tabIndicatorFullWidth="true"
             app:tabMode="scrollable"
-            app:tabSelectedTextColor="@color/colorHighlight"
+            app:tabSelectedTextColor="@color/text_white"
             app:tabTextAppearance="@style/WalletTabTextAppearance"
-            app:tabTextColor="@color/dove" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/mercury" />
+            app:tabTextColor="@color/nav_text_color" />
 
         <com.alphawallet.app.widget.NotificationView
             android:id="@+id/notification"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background_bottom_border" />
+            android:layout_height="wrap_content" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -58,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="?actionBarSize"
-        android:background="@color/alabaster"
+        android:background="@drawable/cry_bg_overlay_top_curved"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.recyclerview.widget.RecyclerView

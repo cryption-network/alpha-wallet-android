@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/background_round_white"
+        android:background="@drawable/watch_bg"
         android:paddingLeft="10dp"
         android:paddingTop="5dp"
         android:paddingRight="10dp"
@@ -63,17 +63,17 @@
             android:singleLine="true"
             android:text="@string/ethereum"
             android:textAllCaps="true"
-            android:textColor="@color/text_dark_gray"
+            android:textColor="@color/text_white"
             android:textSize="15sp" />
 
         <ImageView
             android:layout_width="12dp"
             android:layout_height="12dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@id/current_network"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/current_network"
             android:paddingTop="5dp"
-            android:src="@drawable/ic_dropdown_caret" />
+            android:src="@drawable/ic_dropdown_caret_white" />
     </RelativeLayout>
 
 

@@ -30,7 +30,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/font_regular"
             android:text="@string/wallet_not_backed_up"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="24sp" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_marginBottom="24dp"
             android:fontFamily="@font/font_regular"
             android:text="@string/not_backed_up_detail"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="18sp" />
 
         <Button
@@ -55,7 +55,7 @@
             android:paddingLeft="17dp"
             android:paddingRight="17dp"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="17sp" />
 
         <View

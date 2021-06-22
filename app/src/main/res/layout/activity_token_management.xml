@@ -39,7 +39,7 @@
             android:layout_marginEnd="@dimen/dp16"
             android:maxLines="1"
             android:maxLength="20"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textColorHint="@color/dove"
             android:textSize="@dimen/sp17"/>
 
@@ -78,7 +78,7 @@
             android:paddingBottom="15dp"
             android:text="@string/apply_filters"
             android:textAllCaps="true"
-            android:textColor="@color/button_text_color"
+            android:textColor="@color/text_white"
             android:textSize="16sp" />
 
     </LinearLayout>

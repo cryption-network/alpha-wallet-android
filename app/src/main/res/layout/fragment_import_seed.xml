@@ -66,11 +66,11 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="25dp"
-            android:background="@color/nasty_green"
+            android:background="@drawable/watch_bg"
             android:fontFamily="@font/font_semibold"
             android:text="@string/title_import"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="18sp" />
     </LinearLayout>
 

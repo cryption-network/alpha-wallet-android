@@ -71,7 +71,7 @@
             android:layout_alignParentEnd="true"
             android:fontFamily="@font/font_semibold"
             android:layout_centerVertical="true"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="17sp"
             tools:text="+ 673.345 ETH" />
 
@@ -101,7 +101,7 @@
                 android:ellipsize="end"
                 android:fontFamily="@font/font_light"
                 tools:text="0x123456778 ... 3434"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/sp12" />
 
         <TextView
@@ -112,7 +112,7 @@
             android:layout_alignParentEnd="true"
             android:visibility="visible"
             android:fontFamily="@font/font_regular"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:layout_gravity="center_vertical"
             android:maxLines="1"
             tools:text="11:53 pm"

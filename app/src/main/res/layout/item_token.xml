@@ -6,7 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clickable="true"
-    android:focusable="true">
+    android:focusable="true"
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="20dp">
 
     <TextView
         android:id="@+id/balance_eth_pending"
@@ -67,7 +70,7 @@
                         android:layout_toStartOf="@+id/chain_name"
                         android:fontFamily="@font/font_regular"
                         android:text="0 Ethereum"
-                        android:textColor="@color/text_black"
+                        android:textColor="@color/black"
                         android:textSize="20sp" />
 
                     <com.alphawallet.app.widget.ChainName
@@ -84,71 +87,72 @@
                 </RelativeLayout>
 
                 <LinearLayout
+                    android:id="@+id/layout_extended_info"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/issuerPlaceholder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_semibold"
+                        android:text="@string/issuer"
+                        android:textColor="@color/text_white"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/issuer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:fontFamily="@font/font_semibold"
+                        android:textColor="@color/text_white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/balance_currency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/font_regular"
+                        android:text="@string/unknown_balance_without_symbol"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_white"
+                        android:visibility="gone" />
+
+                    <View
+                        android:id="@+id/contract_seperator"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/contract_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_regular"
+                        android:text="@string/erc20"
+                        android:textColor="@color/text_white"
+                        android:textSize="11sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/layout_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="8dp"
                     android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:id="@+id/layout_extended_info"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/issuerPlaceholder"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/font_semibold"
-                            android:text="@string/issuer"
-                            android:textColor="@color/colorPrimaryDark"
-                            android:textSize="12sp"
-                            android:visibility="gone"/>
-
-                        <TextView
-                            android:id="@+id/issuer"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="2dp"
-                            android:fontFamily="@font/font_semibold"
-                            android:textColor="@color/colorPrimaryDark"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/balance_currency"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/font_regular"
-                            android:text="@string/unknown_balance_without_symbol"
-                            android:textSize="12sp"
-                            android:visibility="gone"/>
-
-                        <View
-                            android:id="@+id/contract_seperator"
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="2dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:layout_marginTop="2dp"
-                            android:background="@color/colorPrimaryDark"
-                            android:visibility="gone" />
-
-                        <TextView
-                            android:id="@+id/contract_type"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/font_regular"
-                            android:text="@string/erc20"
-                            android:textColor="@color/colorPrimaryDark"
-                            android:textSize="11sp"
-                            android:visibility="gone" />
-
-                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/layout_appreciation"
@@ -168,6 +172,7 @@
                             android:fontFamily="@font/font_regular"
                             android:layout_marginEnd="@dimen/dp5"
                             android:text="@string/unknown_balance_without_symbol"
+                            android:textColor="@color/text_white"
                             android:textSize="12sp" />
 
                         <TextView
@@ -177,6 +182,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/font_regular"
                             android:text="@string/unknown_balance_without_symbol"
+                            android:textColor="@color/text_white"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -188,11 +194,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_alignBottom="@id/wrapped_layout"
-        android:background="@color/mercury"/>
 
 </RelativeLayout>

@@ -17,15 +17,15 @@
             android:id="@+id/splash_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_logo"
+            android:background="@drawable/cryption_logo"
             android:gravity="center_horizontal"/>
 
         <TextView
-            android:layout_marginTop="9dp"
+            android:layout_marginTop="35dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="26sp"
-            android:textColor="@color/text_black"
+            android:textColor="@color/text_white"
             android:gravity="center_horizontal"
             android:text="@string/welcome_to_alphawallet"/>
 
@@ -33,7 +33,7 @@
 
     <LinearLayout
         android:id="@+id/layout_new_wallet"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -45,18 +45,18 @@
             android:id="@+id/button_create"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/nasty_green"
+            android:background="@drawable/bg_gradient"
             android:layout_marginBottom="@dimen/create_new_wallet_margin_bottom"
             android:text="@string/create_a_new_wallet"
             android:elevation="2dp"
             android:textStyle="normal"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="16sp"
-            android:textAllCaps="true" />
+            android:textAllCaps="false" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="1dp"
             android:layout_marginTop="@dimen/divider_margin_top"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/already_label_margin_top"
             android:text="@string/already_have_a_wallet"
-            android:textColor="@color/text_dark_gray"
+            android:textColor="@color/text_white"
             android:textSize="16sp"
             android:layout_gravity="center_horizontal"/>
 
@@ -85,12 +85,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/watch"
                 android:layout_weight="1.0"
-                android:background="@drawable/background_white_button"
-                android:elevation="2dp"
+                android:background="@drawable/watch_bg"
+                android:elevation="8dp"
                 android:layout_marginEnd="4dp"
                 android:padding="2dp"
-                android:textAllCaps="true"
-                android:textColor="@color/tealish"/>
+                android:textColor="@color/text_white"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/button_import"
@@ -98,12 +98,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/action_import"
                 android:layout_weight="1.0"
-                android:background="@drawable/background_white_button"
+                android:background="@drawable/import_btn_bg"
                 android:elevation="2dp"
                 android:layout_marginStart="4dp"
                 android:padding="2dp"
                 android:textAllCaps="true"
-                android:textColor="@color/tealish"/>
+                android:textColor="@color/text_white"
+                style="?android:attr/buttonBarButtonStyle" />
 
         </LinearLayout>
     </LinearLayout>

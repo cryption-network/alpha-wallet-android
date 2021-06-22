@@ -13,7 +13,7 @@
         android:padding="2dp"
         android:background="@drawable/chain_name_background_lozenge"
         android:text="@string/ethereum"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="12sp"
         android:visibility="visible" />
 
