@@ -167,12 +167,23 @@
 	<color name="cry_dark">#1B1B23</color>
 	<color name="cry_dark_overlay">#292B38</color>
 	<color name="cry_secondary_bg">#1E202A</color>
+	<color name="cry_secondary_bg2">#1E212A</color>
+	<color name="cry_dark_disabled">#222430</color>
 	<color name="cry_gradient">
 		<item name="android:startColor">#2082E9</item>
 		<item name="android:endColor">#9900FF</item>
 		<item name="android:angle">160</item>
 	</color>
 	<color name="nav_text_color">#BCBCBC</color>
+	<color name="cry_text_gray">#89899B</color>
+	<color name="cry_text_cement">#595959</color>
+
+	<color name="text_deactivated">@color/thumb_deactivated</color>
+	<color name="text_activated">@color/text_white</color>
+
+	//Thumb
+	<color name="thumb_activated">@color/cry_purple</color>
+	<color name="thumb_deactivated">#3D4049</color>
 
 
 </resources>

@@ -23,9 +23,8 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/big_green_tick"
-        android:layout_marginHorizontal="15dp"
-        android:visibility="gone"/>
+        android:src="@drawable/cryption_logo"
+        android:layout_marginHorizontal="15dp"/>
 
     <TextView
         android:id="@+id/toolbar_title"

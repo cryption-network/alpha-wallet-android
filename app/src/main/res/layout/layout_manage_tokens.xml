@@ -19,7 +19,7 @@
         android:fontFamily="@font/font_semibold"
         android:text="@string/add_hide_tokens"
         android:textColor="@color/text_white"
-         android:background="@drawable/watch_bg"
+        android:background="@drawable/watch_bg"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:textSize="17sp"
