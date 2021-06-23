@@ -2,6 +2,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <solid
-        android:color="@color/cry_dark_disabled" />
+        android:color="@color/cry_dark_disabled_overlay" />
     <corners android:radius="20dp" />
 </shape>
