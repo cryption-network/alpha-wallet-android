@@ -94,7 +94,7 @@ public class WalletHolder extends BinderViewHolder<Wallet> implements View.OnCli
 				walletNameText.setVisibility(View.GONE);
 			}
 
-			walletIcon.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
+//			walletIcon.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
 
 			String walletBalance = wallet.balance;
 			if (!TextUtils.isEmpty(walletBalance) && walletBalance.startsWith("*"))

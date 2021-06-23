@@ -2,12 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layout_setting"
     android:layout_width="match_parent"
-    android:layout_height="61dp"
+    android:layout_height="80dp"
     android:background="@drawable/selector_settings_item"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginTop="10dp"
-    android:layout_marginBottom="10dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
     android:clickable="true"
     android:focusable="true">
 
