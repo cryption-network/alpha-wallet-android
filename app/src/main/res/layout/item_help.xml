@@ -7,7 +7,9 @@
     android:layout_alignParentTop="true"
     android:layout_marginBottom="10dp"
     android:animateLayoutChanges="true"
-    android:background="@drawable/background_marketplace_event"
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
     android:orientation="vertical">
 
     <RelativeLayout

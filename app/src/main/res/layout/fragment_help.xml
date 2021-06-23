@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar_title"
         android:layout_marginTop="?actionBarSize"
+        android:paddingTop="10dp"
         android:divider="@android:color/transparent"
         android:dividerHeight="10.0sp"
         android:paddingLeft="10dp"
@@ -33,7 +34,7 @@
         android:id="@+id/layout_contact"
         android:layout_height="?actionBarSize"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/selector_yellow"
+        android:background="@color/faq_blue"
         android:gravity="center">
 
         <ImageView

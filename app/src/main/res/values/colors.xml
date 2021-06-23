@@ -55,6 +55,7 @@
 	<color name="grey75">#757575</color>
 	<color name="greydd">#dddddd</color>
 	<color name="greyf2">#f2f2f2</color>
+	<color name="text_black">#000000</color>
 
 
 	<color name="onboarding_indicator_unselected">#d8d8d8</color>
@@ -185,6 +186,8 @@
 	//Thumb
 	<color name="thumb_activated">@color/cry_purple</color>
 	<color name="thumb_deactivated">#3D4049</color>
+
+	<color name="faq_blue">#0069FF</color>
 
 
 </resources>
