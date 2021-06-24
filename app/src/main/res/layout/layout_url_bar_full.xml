@@ -33,7 +33,7 @@
                 <ImageView
                     android:id="@+id/back"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:alpha="0.3"
                     android:padding="5dp"
                     android:src="@drawable/ic_browser_back" />
@@ -41,10 +41,11 @@
                 <ImageView
                     android:id="@+id/next"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:alpha="0.3"
                     android:padding="5dp"
-                    android:src="@drawable/ic_browser_next" />
+                    android:src="@drawable/ic_browser_back"
+                    android:rotation="180"/>
 
             </LinearLayout>
 
