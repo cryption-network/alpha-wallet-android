@@ -4,7 +4,9 @@
     android:id="@+id/layout_list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white">
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp">
 
     <LinearLayout
         android:id="@+id/layout_details"
