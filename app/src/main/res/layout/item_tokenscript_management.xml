@@ -85,7 +85,7 @@
             android:textColor="@color/text_white"
             android:textSize="12sp" />
 
-        <com.cryption.app.widget.ChainName
+        <com.alphawallet.app.widget.ChainName
             android:id="@+id/chain_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

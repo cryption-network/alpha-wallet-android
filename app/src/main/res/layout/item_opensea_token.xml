@@ -108,7 +108,7 @@
 
             </LinearLayout>
 
-            <com.cryption.app.widget.ERC721ImageView
+            <com.alphawallet.app.widget.ERC721ImageView
                 android:id="@+id/asset_detail"
                 android:layout_width="0dp"
                 android:layout_height="150dp"

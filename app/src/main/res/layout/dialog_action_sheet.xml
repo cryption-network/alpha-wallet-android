@@ -48,39 +48,39 @@
 
     </RelativeLayout>
 
-    <com.cryption.app.widget.BalanceDisplayWidget
+    <com.alphawallet.app.widget.BalanceDisplayWidget
         android:id="@+id/balance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.cryption.app.widget.AddressDetailView
+    <com.alphawallet.app.widget.AddressDetailView
         android:id="@+id/requester"
         android:visibility="gone"
         custom:label="@string/requester_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.cryption.app.widget.GasWidget
+    <com.alphawallet.app.widget.GasWidget
         android:id="@+id/gas_widgetx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.cryption.app.widget.TransactionDetailWidget
+    <com.alphawallet.app.widget.TransactionDetailWidget
         android:id="@+id/detail_widget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.cryption.app.widget.AddressDetailView
+    <com.alphawallet.app.widget.AddressDetailView
         android:id="@+id/recipient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.cryption.app.widget.AmountDisplayWidget
+    <com.alphawallet.app.widget.AmountDisplayWidget
         android:id="@+id/amount_display"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
 
-    <com.cryption.app.widget.AssetDetailView
+    <com.alphawallet.app.widget.AssetDetailView
         android:id="@+id/asset_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,12 +91,12 @@
             android:layout_height="0dp"
         android:background="@color/mercury" />
 
-    <com.cryption.app.widget.ConfirmationWidget
+    <com.alphawallet.app.widget.ConfirmationWidget
         android:id="@+id/confirmation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.cryption.app.widget.FunctionButtonBar
+    <com.alphawallet.app.widget.FunctionButtonBar
         android:id="@+id/layoutButtons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

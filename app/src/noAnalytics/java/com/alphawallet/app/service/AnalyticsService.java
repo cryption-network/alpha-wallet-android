@@ -1,4 +1,4 @@
-package com.cryption.app.service;
+package com.alphawallet.app.service;
 
 import android.content.Context;
 
