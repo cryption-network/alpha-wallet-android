@@ -40,7 +40,6 @@
             android:paddingStart="16dp"
             android:paddingTop="10dp"
             android:paddingEnd="2dp"
-            android:paddingBottom="5dp"
             android:background="@drawable/cry_bg_overlay">
 
             <com.alphawallet.app.widget.TokenIcon
