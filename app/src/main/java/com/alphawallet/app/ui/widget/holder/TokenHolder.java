@@ -118,12 +118,12 @@ public class TokenHolder extends BinderViewHolder<TokenCardMeta> implements View
                 realmUpdate = null;
             }
 
-            tokenLayout.setBackgroundResource(R.drawable.background_marketplace_event);
+            tokenLayout.setBackgroundResource(R.drawable.cry_bg_overlay);
             if (EthereumNetworkRepository.isPriorityToken(token)) extendedInfo.setVisibility(View.GONE);
             contractSeparator.setVisibility(View.GONE);
 
             //setup name and value (put these together on a single string to make wrap-around text appear better).
-            String nameValue = token.getFullName(assetDefinition, token.getTicketCount()) + " " + token.getStringBalance();
+            String nameValue = token.getStringBalance() + " " + token.getFullName(assetDefinition, token.getTicketCount());
             balanceEth.setText(nameValue);
 
             primaryElement = false;
