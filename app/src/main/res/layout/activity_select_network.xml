@@ -51,7 +51,6 @@
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:thumbTint="@color/text_white"
                     android:theme="@style/SettingsItemSwitchAppearance"
                     android:visibility="visible" />
 
@@ -89,7 +88,6 @@
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:thumbTint="@color/text_white"
                     android:theme="@style/SettingsItemSwitchAppearance"
                     android:visibility="visible" />
 
