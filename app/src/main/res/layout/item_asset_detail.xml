@@ -69,7 +69,7 @@
             android:layout_gravity="center"
             android:visibility="gone"/>
 
-        <com.alphawallet.app.widget.ERC721ImageView
+        <com.cryption.app.widget.ERC721ImageView
             android:id="@+id/asset_image"
             android:layout_width="match_parent"
             android:layout_height="250dp"

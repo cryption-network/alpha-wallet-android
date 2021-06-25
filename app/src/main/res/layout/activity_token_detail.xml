@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.alphawallet.app.widget.FunctionButtonBar
+        <com.cryption.app.widget.FunctionButtonBar
             android:id="@+id/layoutButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                         android:textSize="11sp" />
                 </LinearLayout>
 
-                <com.alphawallet.app.widget.ERC721ImageView
+                <com.cryption.app.widget.ERC721ImageView
                     android:id="@+id/layout_image"
                     android:layout_below="@id/layout_token_title"
                     android:layout_width="match_parent"
