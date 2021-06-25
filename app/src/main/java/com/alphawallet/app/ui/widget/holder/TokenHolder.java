@@ -123,7 +123,7 @@ public class TokenHolder extends BinderViewHolder<TokenCardMeta> implements View
             contractSeparator.setVisibility(View.GONE);
 
             //setup name and value (put these together on a single string to make wrap-around text appear better).
-            String nameValue = token.getStringBalance() + " " + token.getFullName(assetDefinition, token.getTicketCount());
+            String nameValue = token.getFullName(assetDefinition, token.getTicketCount()) + " " + token.getStringBalance();
             balanceEth.setText(nameValue);
 
             primaryElement = false;
