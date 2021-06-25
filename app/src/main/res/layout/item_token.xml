@@ -7,8 +7,8 @@
     android:layout_height="wrap_content"
     android:clickable="true"
     android:focusable="true"
-    android:layout_marginHorizontal="20dp"
-    android:layout_marginVertical="10dp">
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="3dp">
 
     <TextView
         android:id="@+id/balance_eth_pending"
@@ -35,12 +35,12 @@
         <LinearLayout
             android:id="@+id/layout_balance"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="horizontal"
             android:paddingStart="16dp"
-            android:paddingTop="14dp"
+            android:paddingTop="10dp"
             android:paddingEnd="2dp"
-            android:paddingBottom="10dp"
+            android:paddingBottom="5dp"
             android:background="@drawable/cry_bg_overlay">
 
             <com.alphawallet.app.widget.TokenIcon
