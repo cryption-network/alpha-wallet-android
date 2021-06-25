@@ -27,6 +27,7 @@
 	<color name="button_disabled_colour">#b4cd99</color>
 	<color name="semi_dark_grey">#707070</color>
 	<color name="text_white">#FFFFFF</color>
+	<color name="switch_purple">#9400D3</color>
 	<color name="text_dark_gray">#4a4a4a</color>
 	<color name="text_light_gray">#686767</color>
 	<color name="light_gray">#9b9b9b</color>
@@ -170,7 +171,7 @@
 	<color name="cry_secondary_bg">#1E202A</color>
 	<color name="cry_secondary_bg2">#1E212A</color>
 	<color name="cry_dark_disabled">#222430</color>
-	<color name="cry_dark_disabled_overlay">#99222430</color>
+	<color name="cry_dark_disabled_overlay">#69222430</color>
 	<color name="cry_gradient">
 		<item name="android:startColor">#2082E9</item>
 		<item name="android:endColor">#9900FF</item>

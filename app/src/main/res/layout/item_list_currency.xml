@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingStart="15dp"
-    android:paddingTop="15dp"
+    android:paddingTop="10dp"
     android:paddingEnd="12dp"
-    android:paddingBottom="15dp"
+    android:paddingBottom="10dp"
     android:background="@drawable/cry_bg_overlay"
-    android:layout_marginHorizontal="20dp"
-    android:layout_marginVertical="10dp">
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp">
 
     <ImageView
         android:id="@+id/flag"
