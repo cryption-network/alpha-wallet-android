@@ -27,6 +27,14 @@ repositories {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Projects\\Android\\alpha-wallet-android\\app\\cryption.jks')
+            storePassword 'cryption_app'
+            keyAlias 'key0'
+            keyPassword 'cryption_app'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
     sourceSets {
@@ -72,7 +80,12 @@ android {
         }
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            zipAlignEnabled true
         }
     }
     packagingOptions {
