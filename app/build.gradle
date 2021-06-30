@@ -46,7 +46,7 @@ android {
         versionCode 156
         versionName "3.33"
 
-        applicationId "io.stormbird.wallet"
+        applicationId "com.cryption.app"
         minSdkVersion 23
         targetSdkVersion 30
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
