@@ -8,7 +8,7 @@
     android:clickable="true"
     android:focusable="true"
     android:layout_marginHorizontal="10dp"
-    android:layout_marginVertical="3dp">
+    android:layout_marginVertical="5dp">
 
     <TextView
         android:id="@+id/balance_eth_pending"
