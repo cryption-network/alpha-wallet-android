@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE token  [
+    <!ENTITY style SYSTEM "app.css">
+    <!ENTITY mint.en SYSTEM "mint.shtml">
+    <!ENTITY approve.en SYSTEM "approve.en.js">
+    <!ENTITY enter.en SYSTEM "enter.en.js">
+    ]>
+<ts:token xmlns:ts="http://tokenscript.org/2020/06/tokenscript"
+          xmlns:ethereum="urn:ethereum:constantinople"
+          xmlns:xhtml="http://www.w3.org/1999/xhtml"
+          xmlns:xml="http://www.w3.org/XML/1998/namespace"
+          xsi:schemaLocation="http://tokenscript.org/2020/06/tokenscript http://tokenscript.org/2020/06/tokenscript.xsd"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          name="MCNT"
+>
+
+
+
+
+    <!-- <ts:name>
+        <ts:string xml:lang="en">Coin</ts:string>
+    </ts:name> -->
+    <ts:label>
+        <ts:string xml:lang="en">CNT on matic</ts:string>
+    </ts:label>
+    <ts:contract interface="erc20" name="MCNT">
+        <ts:address network="80001">0x766F03e47674608cCcF7414f6c4DDF3d963Ae394</ts:address>
+    </ts:contract>
+
+
+
+
+    <ts:origins>
+        <ts:ethereum contract="MCNT"></ts:ethereum>
+    </ts:origins>
+
+    <ts:cards>
+        <ts:card type="action" exclude="enabled" name="approve">
+            <ts:label>
+                <ts:string xml:lang="en">Approve</ts:string>
+            </ts:label>
+            <ts:transaction>
+                <ethereum:transaction function="approve" contract="MCNT" as="bool">
+                    <ts:data>
+                        <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
+                        <ts:uint256>10000000000000000000000000000</ts:uint256>
+                    </ts:data>
+                </ethereum:transaction>
+            </ts:transaction>
+            <ts:view xml:lang="en">
+                <xhtml:style type="text/css">&style;</xhtml:style>
+                <xhtml:script type="text/javascript">&approve.en;</xhtml:script>
+            </ts:view>
+        </ts:card>
+
+        <ts:card type="action" name="stakeAmount">
+            <ts:label>
+                <ts:string xml:lang="en">Stake to CNTStaker</ts:string>
+            </ts:label>
+            <ts:transaction>
+                <ethereum:transaction function="enter" contract="MCNT">
+                    <ts:data>
+                        <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
+                        <ts:uint256 ref="stakeAmount"/>
+                    </ts:data>
+                </ethereum:transaction>
+            </ts:transaction>
+            <ts:view xml:lang="en">
+                <xhtml:style type="text/css">&style;</xhtml:style>
+                <xhtml:script type="text/javascript">&enter.en;</xhtml:script>
+            </ts:view>
+        </ts:card>
+    </ts:cards>
+        
+</ts:token>
