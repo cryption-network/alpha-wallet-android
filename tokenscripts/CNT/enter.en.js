@@ -6,7 +6,7 @@ class Token {
   }
 
   render() {
-    let message = "Stake Amount to CNTStaker ";
+    let message = "Stake Amount to CNTStaker. Allowance aaya : " + this.props.allowance;
     return `
         <div class="ui container">
           <div class="ui segment">
@@ -23,7 +23,7 @@ class Token {
 }
 
 web3.tokens.dataChanged = (oldTokens, updatedTokens, tokenCardId) => {
-  const currentTokenInstance = web3.tokens.data.currentInstance;
+  const currentTokenInstance = updatedTokens.currentInstance;
   document.getElementById(tokenCardId).innerHTML = new Token(currentTokenInstance).render();
 };
 
