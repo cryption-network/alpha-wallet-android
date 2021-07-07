@@ -36,7 +36,7 @@
         <ts:ethereum contract="CNTStaker"></ts:ethereum>
     </ts:origins>
 
-    <ts:selection name="enabled" filter="allowance>115792089237316195423570985008687907853269984665640564039457584007913129639935">
+    <ts:selection name="enabled" filter="allowance>0">
         <ts:label>
             <ts:string xml:lang="en">contract already enabled</ts:string>
         </ts:label>
@@ -56,7 +56,7 @@
                 <ethereum:transaction function="approve" contract="CNT" as="bool">
                     <ts:data>
                         <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
-                        <ts:uint256>115792089237316195423570985008687907853269984665640564039457584007913129639935</ts:uint256>
+                        <ts:uint256>1000000000000000</ts:uint256>
                     </ts:data>
                 </ethereum:transaction>
             </ts:transaction>
@@ -66,7 +66,7 @@
             </ts:view>
         </ts:card>
 
-        <ts:card type="action" name="resetApprove">
+        <ts:card type="action" exclude="notEnabled" name="resetApprove">
             <ts:label>
                 <ts:string xml:lang="en">Reset allowance to CNTStaker</ts:string>
             </ts:label>
