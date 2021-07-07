@@ -36,8 +36,19 @@
         <ts:ethereum contract="CNTStaker"></ts:ethereum>
     </ts:origins>
 
+    <ts:selection name="enabled" filter="allowance>115792089237316195423570985008687907853269984665640564039457584007913129639935">
+        <ts:label>
+            <ts:string xml:lang="en">contract already enabled</ts:string>
+        </ts:label>
+    </ts:selection>
+    <ts:selection name="notEnabled" filter="allowance=0">
+        <ts:label>
+            <ts:string xml:lang="en">Approval not done</ts:string>
+        </ts:label>
+    </ts:selection>
+
     <ts:cards>
-        <ts:card type="action" name="approve">
+        <ts:card type="action" exclude="enabled" name="approve">
             <ts:label>
                 <ts:string xml:lang="en">Approve to CNTStaker</ts:string>
             </ts:label>
@@ -45,7 +56,7 @@
                 <ethereum:transaction function="approve" contract="CNT" as="bool">
                     <ts:data>
                         <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
-                        <ts:uint256>10000000000000000000000000000</ts:uint256>
+                        <ts:uint256>115792089237316195423570985008687907853269984665640564039457584007913129639935</ts:uint256>
                     </ts:data>
                 </ethereum:transaction>
             </ts:transaction>
@@ -55,7 +66,25 @@
             </ts:view>
         </ts:card>
 
-        <ts:card type="action" name="stakeAmount">
+        <ts:card type="action" name="resetApprove">
+            <ts:label>
+                <ts:string xml:lang="en">Reset allowance to CNTStaker</ts:string>
+            </ts:label>
+            <ts:transaction>
+                <ethereum:transaction function="approve" contract="CNT" as="bool">
+                    <ts:data>
+                        <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
+                        <ts:uint256>0</ts:uint256>
+                    </ts:data>
+                </ethereum:transaction>
+            </ts:transaction>
+            <ts:view xml:lang="en">
+                <xhtml:style type="text/css">&style;</xhtml:style>
+                <xhtml:script type="text/javascript">&approve.en;</xhtml:script>
+            </ts:view>
+        </ts:card>
+
+        <!-- <ts:card type="action" name="stakeAmount">
             <ts:label>
                 <ts:string xml:lang="en">Stake to CNTStaker</ts:string>
             </ts:label>
@@ -70,9 +99,9 @@
                 <xhtml:style type="text/css">&style;</xhtml:style>
                 <xhtml:script type="text/javascript">&enter.en;</xhtml:script>
             </ts:view>
-        </ts:card>
+        </ts:card> -->
 <!-- exclude -->
-        <ts:card type="action" name="stakeViaUserInput">
+        <ts:card type="action" exclude="notEnabled" name="stakeViaUserInput">
             <ts:label>
                 <ts:string xml:lang="en">Stake upon CNTStaker</ts:string>
             </ts:label>
@@ -98,4 +127,17 @@
             </ts:view>
     </ts:card>
         </ts:cards>
+
+    <ts:attribute name="allowance">
+        <ts:type><ts:syntax>1.3.6.1.4.1.1466.115.121.1.36</ts:syntax></ts:type>
+        <ts:origins>
+            <ethereum:call function="allowance" contract="CNT" as="uint">
+                <ts:data>
+                    <ts:address ref="ownerAddress"/>
+                    <ts:address>0x5DA1f601486252ca41D04e6cAa49B19DD0bfa888</ts:address>
+                </ts:data>
+            </ethereum:call>
+        </ts:origins>
+    </ts:attribute>
+
 </ts:token>
