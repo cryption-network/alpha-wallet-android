@@ -97,17 +97,16 @@
     <string name="error_export">无法导出钱包</string>
     <string name="error_fail_load_tokens">无法加载通证列表</string>
     <string name="error_create_wallet">无法创建钱包</string>
-    <string name="app_name">Cryption</string>
-    <string name="all">全部</string>
-    <string name="currency">币类</string>
-    <string name="advanced">高级设置</string>
-    <string name="copy_wallet_address">复制钱包地址</string>
-    <string name="hint_contract_name">名称</string>
-    <string name="hint_contract_venue">场馆</string>
-    <string name="hint_contract_date">日期</string>
-    <string name="hint_contract_price">价格</string>
-    <!-- Price -->
-    <string name="action_use">兑换</string>
+<!--    <string name="app_name">Cryption Wallet</string>vbfggggggg.,string name="all">全部</string>-->
+<!--    <string name="currency">币类</string>-->
+<!--    <string name="advanced">高级设置</string>-->
+<!--    <string name="copy_wallet_address">复制钱包地址</string>-->
+<!--    <string name="hint_contract_name">名称</string>-->
+<!--    <string name="hint_contract_venue">场馆</string>-->
+<!--    <string name="hint_contract_date">日期</string>-->
+<!--    <string name="hint_contract_price">价格</string>-->
+     Price
+<!--    <string name="action_use">兑换</string>-->
     <string name="action_sell">出售</string>
     <string name="action_transfer">转让</string>
     <string name="address">地址</string>
