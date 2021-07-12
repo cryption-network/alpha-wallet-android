@@ -56,6 +56,7 @@
         android:gravity="center"
         android:lines="1"
         android:textColor="@color/text_white"
+        android:background="@drawable/activity_token_round_background"
         android:visibility="gone"
         app:autoSizeMaxTextSize="@dimen/sp24"
         app:autoSizeMinTextSize="@dimen/sp17"
