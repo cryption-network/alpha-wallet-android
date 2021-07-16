@@ -162,10 +162,8 @@ public class SettingsItemView extends LinearLayout {
 
     public void setSubtitle(String subtitleText) {
         if (subtitleText.isEmpty()) {
-            setLayoutHeight(60);
             subtitle.setVisibility(View.GONE);
         } else {
-            setLayoutHeight(80);
             subtitle.setVisibility(View.VISIBLE);
             subtitle.setText(subtitleText);
         }
@@ -207,10 +205,6 @@ public class SettingsItemView extends LinearLayout {
         if (resId != -1) {
             setSubtitle(getContext().getString(resId));
         }
-    }
-
-    private void setLayoutHeight(int dp) {
-        layout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, Utils.dp2px(getContext(), dp)));
     }
 
     private void setSettingsItemType(Type type) {

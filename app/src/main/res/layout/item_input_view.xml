@@ -15,7 +15,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="0dp"
             android:background="@color/mercury" />
 
         <TextView
@@ -28,12 +28,12 @@
             android:paddingEnd="16dp"
             android:text="@string/wallet_name"
             android:textAllCaps="true"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textSize="15sp" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="0dp"
             android:background="@color/mercury" />
 
     </LinearLayout>
@@ -62,8 +62,8 @@
             android:paddingTop="@dimen/dp12"
             android:paddingEnd="@dimen/dp8"
             android:paddingBottom="@dimen/dp12"
-            android:textColor="@color/black"
-            android:textColorHint="@color/dove"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_white"
             android:textSize="@dimen/sp17"
             android:layout_toStartOf="@id/img_scan_qr"
             tools:text="Awesome High Yield DeFi Token" />
@@ -93,7 +93,7 @@
         android:fontFamily="@font/font_semibold"
         android:paddingLeft="2dp"
         android:paddingRight="2dp"
-        android:textColor="@color/dove"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp13"
         tools:text="Token Name"
         android:visibility="visible" />
@@ -106,7 +106,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/font_semibold"
-        android:textColor="@color/azure"
+        android:textColor="@color/cry_purple"
         android:textSize="@dimen/sp17"
         android:text="@string/paste"
         android:visibility="visible" />

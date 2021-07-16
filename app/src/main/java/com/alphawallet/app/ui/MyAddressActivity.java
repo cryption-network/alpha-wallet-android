@@ -131,7 +131,6 @@ public class MyAddressActivity extends BaseActivity implements AmountReadyCallba
         qrImageView = findViewById(R.id.qr_image);
         selectAddress = findViewById(R.id.layout_select_address);
         networkIcon = findViewById(R.id.network_icon);
-        qrImageView.setBackgroundResource(R.color.white);
         ensFetchProgressBar = findViewById(R.id.ens_fetch_progress);
 
         if (viewModel == null) initViewModel();

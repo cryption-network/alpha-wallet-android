@@ -40,7 +40,7 @@
                         android:fontFamily="@font/font_light"
                         android:gravity="center"
                         android:text="@string/set_a_price"
-                        android:textColor="@color/text_black"
+                        android:textColor="@color/black"
                         android:textSize="25sp" />
 
                     <TextView
@@ -49,7 +49,7 @@
                         android:fontFamily="@font/font_light"
                         android:gravity="center"
                         android:text="@string/set_price_subtext_abr"
-                        android:textColor="@color/text_black"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:visibility="gone" />
 
@@ -61,7 +61,7 @@
                         android:fontFamily="@font/font_semibold"
                         android:gravity="center"
                         android:text="@string/learn_more_about_ethereum"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/text_white"
                         android:textSize="18sp"
                         android:visibility="gone" />
 
@@ -97,7 +97,7 @@
                                     android:fontFamily="@font/font_regular"
                                     android:text="@string/price_per_ticket"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/light_gray"
+                                    android:textColor="@color/text_white"
                                     android:textSize="10sp" />
 
                                 <RelativeLayout
@@ -116,7 +116,7 @@
                                         android:imeOptions="actionDone"
                                         android:inputType="numberDecimal"
                                         android:paddingStart="15dp"
-                                        android:textColor="@color/colorPrimaryDark"
+                                        android:textColor="@color/text_white"
                                         android:textColorHint="@color/light_gray"
                                         android:textSize="21sp" />
 
@@ -165,7 +165,7 @@
                                     android:fontFamily="@font/font_regular"
                                     android:text="@string/quantity_of_tickets"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/light_gray"
+                                    android:textColor="@color/text_white"
                                     android:textSize="10sp" />
 
                                 <LinearLayout
@@ -202,7 +202,7 @@
                                         android:gravity="center"
                                         android:padding="10dp"
                                         android:text="1"
-                                        android:textColor="@color/colorPrimaryDark"
+                                        android:textColor="@color/text_white"
                                         android:textSize="21sp" />
 
                                     <RelativeLayout
@@ -251,12 +251,12 @@
                                 android:fontFamily="@font/font_light"
                                 android:gravity="center"
                                 android:text="@string/total_cost_label"
-                                android:textColor="@color/text_black"
+                                android:textColor="@color/black"
                                 android:textSize="21sp" />
 
                             <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                                 android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
                                 android:background="@color/grey" />
@@ -268,12 +268,12 @@
                                 android:fontFamily="@font/font_bold"
                                 android:gravity="center"
                                 android:text="@string/eth_00"
-                                android:textColor="@color/colorPrimaryDark"
+                                android:textColor="@color/text_white"
                                 android:textSize="21sp" />
 
                             <View
-                                android:layout_width="match_parent"
-                                android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                                 android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
                                 android:background="@color/grey" />
@@ -286,7 +286,7 @@
                                 android:gravity="center"
                                 android:text="@string/equivalent_in_usd"
                                 android:textAllCaps="true"
-                                android:textColor="@color/light_gray"
+                                android:textColor="@color/text_white"
                                 android:textSize="10sp" />
 
 
@@ -302,7 +302,7 @@
                                 android:paddingRight="20dp"
                                 android:paddingTop="10dp"
                                 android:text="$0"
-                                android:textColor="@color/light_gray"
+                                android:textColor="@color/text_white"
                                 android:textSize="21sp" />
 
                         </LinearLayout>
@@ -372,7 +372,7 @@
                                     android:fontFamily="@font/font_regular"
                                     android:text="@string/link_expiry_date"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/light_gray"
+                                    android:textColor="@color/text_white"
                                     android:textSize="10sp" />
 
                                 <RelativeLayout
@@ -393,7 +393,7 @@
                                         android:imeOptions="actionDone"
                                         android:inputType="datetime"
                                         android:paddingStart="15dp"
-                                        android:textColor="@color/colorPrimaryDark"
+                                        android:textColor="@color/text_white"
                                         android:textColorHint="@color/light_gray"
                                         android:textSize="18sp" />
 
@@ -438,7 +438,7 @@
                                     android:fontFamily="@font/font_regular"
                                     android:text="@string/link_expiry_time"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/light_gray"
+                                    android:textColor="@color/text_white"
                                     android:textSize="10sp" />
 
                                 <RelativeLayout
@@ -459,7 +459,7 @@
                                         android:imeOptions="actionDone"
                                         android:inputType="time"
                                         android:paddingStart="15dp"
-                                        android:textColor="@color/colorPrimaryDark"
+                                        android:textColor="@color/text_white"
                                         android:textColorHint="@color/light_gray"
                                         android:textSize="18sp" />
 
@@ -504,7 +504,7 @@
             android:gravity="center"
             android:text="@string/action_next"
             android:textAllCaps="false"
-            android:textColor="@color/button_text_color"
+            android:textColor="@color/text_white"
             android:textSize="20sp" />
 
         <Button
@@ -518,7 +518,7 @@
             android:gravity="center"
             android:text="@string/action_next"
             android:textAllCaps="false"
-            android:textColor="@color/button_text_color"
+            android:textColor="@color/text_white"
             android:textSize="20sp"
             android:visibility="gone" />
     </RelativeLayout>

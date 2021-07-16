@@ -18,7 +18,7 @@
         android:fontFamily="@font/font_light"
         android:gravity="center"
         android:text="@string/filter_by"
-        android:textColor="@color/text_black"
+        android:textColor="@color/black"
         android:textSize="21sp" />
 
     <LinearLayout
@@ -42,7 +42,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_date_label"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -68,7 +68,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_price_label"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -101,7 +101,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_distance_label"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -127,7 +127,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_timeframe_label"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -157,7 +157,7 @@
         android:paddingTop="10dp"
         android:text="@string/btn_text_apply"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="20sp" />
 
 </LinearLayout>

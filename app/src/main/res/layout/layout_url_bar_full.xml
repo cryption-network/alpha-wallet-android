@@ -4,7 +4,7 @@
         android:id="@+id/address_bar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@drawable/background_bottom_border"
+        android:background="@color/colorPrimary"
         android:theme="@style/AppTheme.Toolbar"
         app:contentInsetEnd="0dp"
         app:contentInsetLeft="0dp"
@@ -33,7 +33,7 @@
                 <ImageView
                     android:id="@+id/back"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:alpha="0.3"
                     android:padding="5dp"
                     android:src="@drawable/ic_browser_back" />
@@ -41,10 +41,11 @@
                 <ImageView
                     android:id="@+id/next"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:alpha="0.3"
                     android:padding="5dp"
-                    android:src="@drawable/ic_browser_next" />
+                    android:src="@drawable/ic_browser_back"
+                    android:rotation="180"/>
 
             </LinearLayout>
 
@@ -63,12 +64,14 @@
                 android:dropDownAnchor="@id/anchor"
                 android:fontFamily="@font/font_regular"
                 android:hint="@string/search_or_type_web_address"
+                android:textColorHint="@color/text_white"
                 android:imeOptions="actionGo"
                 android:inputType="textUri"
                 android:padding="5dp"
-                android:paddingRight="35dp"
+                android:paddingEnd="35dp"
                 android:focusable="true"
                 android:clickable="true"
+                android:textColor="@color/text_white"
                 android:focusableInTouchMode="true"
                 android:textSize="18sp" />
 
@@ -81,7 +84,6 @@
                 android:layout_marginRight="3dp"
                 android:padding="3dp"
                 android:src="@drawable/ic_clear"
-                android:tint="@color/light_gray"
                 android:visibility="gone" />
 
             <LinearLayout

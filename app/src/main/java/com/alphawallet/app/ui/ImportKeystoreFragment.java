@@ -91,8 +91,8 @@ public class ImportKeystoreFragment extends Fragment implements View.OnClickList
     {
         importButton.setActivated(enabled);
         importButton.setClickable(enabled);
-        int colorId = enabled ? R.color.nasty_green : R.color.inactive_green;
-        if (getContext() != null) importButton.setBackgroundColor(getContext().getColor(colorId));
+//        int colorId = enabled ? R.color.nasty_green : R.color.inactive_green;
+        if (getContext() != null) importButton.setBackgroundResource(R.drawable.bg_gradient);
     }
 
     private void handleKeypress(View view)

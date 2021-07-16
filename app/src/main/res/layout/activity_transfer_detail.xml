@@ -60,7 +60,7 @@
                         android:fontFamily="@font/font_regular"
                         android:text="@string/quantity_of_tickets"
                         android:textAllCaps="true"
-                        android:textColor="@color/light_gray"
+                        android:textColor="@color/text_white"
                         android:textSize="10sp" />
 
                     <LinearLayout
@@ -101,7 +101,7 @@
                             android:gravity="center"
                             android:padding="10dp"
                             android:text="1"
-                            android:textColor="@color/colorPrimaryDark"
+                            android:textColor="@color/text_white"
                             android:textSize="21sp" />
 
                         <RelativeLayout
@@ -154,7 +154,7 @@
                         <!--android:layout_marginBottom="10dp"-->
                         <!--android:gravity="center"-->
                         <!--android:text="@string/transfer_method"-->
-                        <!--android:textColor="@color/text_black"-->
+                        <!--android:textColor="@color/black"-->
                         <!--android:textAllCaps="true"-->
                         <!--android:textSize="10sp" />-->
 
@@ -226,7 +226,7 @@
                                 android:fontFamily="@font/font_light"
                                 android:gravity="center"
                                 android:text="@string/generate_pick_up_link"
-                                android:textColor="@color/text_black"
+                                android:textColor="@color/black"
                                 android:textSize="18sp" />
 
                         </LinearLayout>
@@ -257,7 +257,7 @@
                                 android:fontFamily="@font/font_light"
                                 android:gravity="center"
                                 android:text="@string/transfer_now"
-                                android:textColor="@color/text_black"
+                                android:textColor="@color/black"
                                 android:textSize="18sp" />
 
                         </LinearLayout>
@@ -295,7 +295,7 @@
                                 android:fontFamily="@font/font_regular"
                                 android:text="@string/link_expiry_date"
                                 android:textAllCaps="true"
-                                android:textColor="@color/light_gray"
+                                android:textColor="@color/text_white"
                                 android:textSize="10sp" />
 
                             <RelativeLayout
@@ -316,7 +316,7 @@
                                     android:imeOptions="actionDone"
                                     android:inputType="datetime"
                                     android:paddingStart="15dp"
-                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textColor="@color/text_white"
                                     android:textColorHint="@color/light_gray"
                                     android:textSize="18sp" />
 
@@ -361,7 +361,7 @@
                                 android:fontFamily="@font/font_regular"
                                 android:text="@string/link_expiry_time"
                                 android:textAllCaps="true"
-                                android:textColor="@color/light_gray"
+                                android:textColor="@color/text_white"
                                 android:textSize="10sp" />
 
                             <RelativeLayout
@@ -382,7 +382,7 @@
                                     android:imeOptions="actionDone"
                                     android:inputType="time"
                                     android:paddingStart="15dp"
-                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textColor="@color/text_white"
                                     android:textColorHint="@color/light_gray"
                                     android:textSize="18sp" />
 
@@ -416,7 +416,7 @@
                         android:fontFamily="@font/font_light"
                         android:gravity="center"
                         android:layout_gravity="center"
-                        android:textColor="@color/text_black"
+                        android:textColor="@color/black"
                         android:layout_marginTop="15dp"
                         android:textSize="16sp" />
 

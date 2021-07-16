@@ -185,7 +185,7 @@ public class WalletFragment extends BaseFragment implements
             adapter.setWalletAddress(wallet.address);
         }
 
-        addressBlockie.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
+//        addressBlockie.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
         addressBlockie.setVisibility(View.VISIBLE);
 
         //Do we display new user backup popup?

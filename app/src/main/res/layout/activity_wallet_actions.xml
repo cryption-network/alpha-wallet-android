@@ -25,8 +25,8 @@
             android:orientation="vertical">
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                 android:background="@color/mercury" />
 
             <View
@@ -41,8 +41,8 @@
                 android:orientation="vertical">
 
                 <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                     android:background="@color/mercury" />
 
                 <com.alphawallet.app.widget.SettingsItemView
@@ -63,14 +63,14 @@
                     android:layout_marginBottom="16dp"
                     android:fontFamily="@font/font_regular"
                     android:text="@string/seed_phrase_loss_warning"
-                    android:textColor="@color/dove"
+                    android:textColor="@color/text_white"
                     android:textSize="13sp" />
 
             </LinearLayout>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                 android:background="@color/mercury" />
 
             <com.alphawallet.app.widget.SettingsItemView
@@ -90,7 +90,7 @@
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/font_regular"
                 android:text="@string/delete_lose_funds_warning"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="13sp" />
 
             <com.alphawallet.app.widget.InputAddress
@@ -105,8 +105,8 @@
                 custom:nocam="true"/>
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
                 android:background="@color/mercury" />
 
         </LinearLayout>

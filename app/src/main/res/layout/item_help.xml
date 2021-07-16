@@ -7,12 +7,15 @@
     android:layout_alignParentTop="true"
     android:layout_marginBottom="10dp"
     android:animateLayoutChanges="true"
-    android:background="@drawable/background_marketplace_event"
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
         <RelativeLayout
             android:id="@+id/layout_question"
@@ -28,7 +31,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/font_light"
-                android:textColor="@color/text_black"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
             <ImageView
@@ -36,10 +39,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ic_dropdown_caret" />
+                android:src="@drawable/ic_dropdown_caret_white" />
 
         </RelativeLayout>
-
 
         <LinearLayout
             android:id="@+id/layout_answer"
@@ -56,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/font_light"
-                android:textColor="@color/text_black" />
+                android:textColor="@color/black" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

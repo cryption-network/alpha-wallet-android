@@ -199,7 +199,7 @@ public class TransactionHolder extends BinderViewHolder<TransactionMeta> impleme
         }
         else if (transactionBackground != null)
         {
-            transactionBackground.setBackgroundResource(R.color.white);
+            transactionBackground.setBackgroundResource(R.drawable.cry_bg_overlay);
         }
     }
 }

@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_semibold"
             android:text="@string/speed_gas"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp13" />
 
         <ImageView
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_semibold"
             android:text="@string/slow"
-            android:textColor="@color/azure"
+            android:textColor="@color/cry_purple"
             android:textSize="@dimen/sp13" />
 
         <TextView
@@ -76,7 +76,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/font_semibold"
             android:gravity="center"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp13"
             tools:text="@string/eth_00" />
 
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_semibold"
             android:text="@string/fast"
-            android:textColor="@color/azure"
+            android:textColor="@color/cry_purple"
             android:textSize="@dimen/sp13" />
 
     </LinearLayout>
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_semibold"
             android:text="@string/label_estimated_transaction_time"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp13" />
 
         <TextView
@@ -163,7 +163,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
                         android:text="@string/label_gas_limit"
-                        android:textColor="@color/dove"
+                        android:textColor="@color/text_white"
                         android:textSize="@dimen/sp13" />
 
                     <TextView
@@ -171,7 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_bold"
-                        android:textColor="@color/azure"
+                        android:textColor="@color/cry_purple"
                         android:textSize="@dimen/sp17"
                         android:text="90000" />
 
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/font_semibold"
                     android:text="@string/label_gas_price"
-                    android:textColor="@color/dove"
+                    android:textColor="@color/text_white"
                     android:textSize="@dimen/sp13" />
 
                 <TextView

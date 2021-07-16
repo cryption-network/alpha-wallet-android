@@ -4,7 +4,7 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@color/transparent"
+	android:background="@drawable/cry_bg_overlay_top_curved"
 	>
 	<ProgressBar
 		android:id="@+id/progress"
@@ -31,7 +31,7 @@
 			android:text="@string/try_again"
             android:textAllCaps="true"
 			android:fontFamily="@font/font_regular"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/text_white"
 			android:visibility="gone"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/normal_margin"

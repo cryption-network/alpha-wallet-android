@@ -4,11 +4,13 @@
     android:id="@+id/layout_list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
     android:paddingStart="15dp"
-    android:paddingTop="15dp"
+    android:paddingTop="10dp"
     android:paddingEnd="12dp"
-    android:paddingBottom="15dp">
+    android:paddingBottom="10dp"
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp">
 
     <ImageView
         android:id="@+id/flag"
@@ -32,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/font_regular"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="17sp"
             tools:text="AUD" />
 
@@ -41,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_light"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:textSize="12sp"
             tools:text="AUD" />
     </LinearLayout>

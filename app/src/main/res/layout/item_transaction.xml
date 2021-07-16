@@ -6,10 +6,12 @@
     android:id="@+id/layout_background"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
+    android:background="@color/text_white"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="5dp"
     android:orientation="horizontal"
     android:padding="@dimen/dp8"
-    android:minHeight="80dp">
+    android:maxHeight="74dp">
 
     <com.alphawallet.app.widget.TokenIcon
         android:id="@+id/token_icon"
@@ -40,6 +42,7 @@
                 android:fontFamily="@font/font_regular"
                 android:maxLines="2"
                 android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/sp17"
                 tools:text="Send ETH" />
 
@@ -71,7 +74,7 @@
             android:layout_alignParentEnd="true"
             android:fontFamily="@font/font_semibold"
             android:layout_centerVertical="true"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="17sp"
             tools:text="+ 673.345 ETH" />
 
@@ -88,6 +91,7 @@
             android:layout_marginStart="2dp"
             android:textSize="12sp"
             android:visibility="visible"
+            android:textColor="@color/text_white"
             tools:text="+1.0 ETH" />
 
             <TextView
@@ -101,7 +105,7 @@
                 android:ellipsize="end"
                 android:fontFamily="@font/font_light"
                 tools:text="0x123456778 ... 3434"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/sp12" />
 
         <TextView
@@ -112,7 +116,7 @@
             android:layout_alignParentEnd="true"
             android:visibility="visible"
             android:fontFamily="@font/font_regular"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:layout_gravity="center_vertical"
             android:maxLines="1"
             tools:text="11:53 pm"

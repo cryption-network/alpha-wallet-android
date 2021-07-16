@@ -26,6 +26,7 @@ import com.alphawallet.app.router.HomeRouter;
 import com.alphawallet.app.ui.widget.adapter.TokenListAdapter;
 import com.alphawallet.app.viewmodel.TokenManagementViewModel;
 import com.alphawallet.app.viewmodel.TokenManagementViewModelFactory;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import javax.inject.Inject;
 
@@ -45,6 +46,7 @@ public class TokenManagementActivity extends BaseActivity implements TokenListAd
     private Button saveButton;
     private TokenListAdapter adapter;
     private EditText search;
+    private FloatingActionButton fabAdd;
 
     private Wallet wallet;
     private Realm realm;
@@ -74,6 +76,11 @@ public class TokenManagementActivity extends BaseActivity implements TokenListAd
         tokenList = findViewById(R.id.token_list);
         saveButton = findViewById(R.id.btn_apply);
         search = findViewById(R.id.edit_search);
+        fabAdd = findViewById(R.id.fab_add_btn);
+
+        fabAdd.setOnClickListener(v -> {
+            viewModel.showAddToken(this);
+        });
 
         tokenList.setLayoutManager(new LinearLayoutManager(this));
 

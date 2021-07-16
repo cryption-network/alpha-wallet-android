@@ -30,7 +30,7 @@
                 android:fontFamily="@font/font_semibold"
                 android:gravity="center"
                 android:text="@string/edit_dapp"
-                android:textColor="@color/text_dark_gray"
+                android:textColor="@color/text_white"
                 android:textSize="20sp" />
 
             <ImageView
@@ -40,7 +40,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="15dp"
-                android:src="@drawable/ic_logo" />
+                android:src="@drawable/cryption_logo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/font_semibold"
                 android:text="@string/dapp_title"
-                android:textColor="@color/text_dark_gray"
+                android:textColor="@color/text_white"
                 android:textSize="16sp" />
 
             <EditText
@@ -64,7 +64,7 @@
                 android:maxLines="1"
                 android:paddingEnd="15dp"
                 android:paddingStart="15dp"
-                android:textColor="@color/text_dark_gray"
+                android:textColor="@color/text_white"
                 android:textColorHint="@color/light_gray"
                 android:textSize="16sp" />
 
@@ -75,7 +75,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/font_semibold"
                 android:text="@string/dapp_address"
-                android:textColor="@color/text_dark_gray"
+                android:textColor="@color/text_white"
                 android:textSize="16sp" />
 
             <EditText
@@ -91,7 +91,7 @@
                 android:maxLines="1"
                 android:paddingEnd="15dp"
                 android:paddingStart="15dp"
-                android:textColor="@color/text_dark_gray"
+                android:textColor="@color/text_white"
                 android:textColorHint="@color/light_gray"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -120,7 +120,7 @@
                 android:paddingTop="15dp"
                 android:text="@string/action_add"
                 android:textAllCaps="false"
-                android:textColor="@color/button_text_color"
+                android:textColor="@color/text_white"
                 android:textSize="16sp" />
 
         </LinearLayout>

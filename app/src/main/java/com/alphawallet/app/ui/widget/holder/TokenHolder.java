@@ -118,7 +118,7 @@ public class TokenHolder extends BinderViewHolder<TokenCardMeta> implements View
                 realmUpdate = null;
             }
 
-            tokenLayout.setBackgroundResource(R.drawable.background_marketplace_event);
+            tokenLayout.setBackgroundResource(R.drawable.cry_bg_overlay);
             if (EthereumNetworkRepository.isPriorityToken(token)) extendedInfo.setVisibility(View.GONE);
             contractSeparator.setVisibility(View.GONE);
 

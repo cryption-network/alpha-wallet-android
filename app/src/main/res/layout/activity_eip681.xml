@@ -35,12 +35,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
                     android:fontFamily="@font/font_light"
                     android:gravity="center"
                     android:text="@string/my_wallet_address"
-                    android:textColor="@color/text_black"
+                    android:textColor="@color/black"
                     android:textSize="25sp" />
 
                 <TextView
@@ -49,7 +49,7 @@
                     android:fontFamily="@font/font_light"
                     android:gravity="center"
                     android:text="@string/scan_qr_label"
-                    android:textColor="@color/text_black"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -82,7 +82,7 @@
             android:layout_below="@id/holding_view"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/ic_logo" />
+            android:src="@drawable/ic_cryption_qrcode" />
 
         <TextView
             android:id="@+id/address"
@@ -110,7 +110,7 @@
             android:layout_marginBottom="5dp"
             android:fontFamily="@font/font_regular"
             android:textAllCaps="true"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/text_white"
             android:visibility="gone"
             android:textSize="10sp"/>
 
@@ -147,7 +147,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="Copy"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
+                android:textColor="@color/text_white"
                 android:textSize="16sp" />
 
         </LinearLayout>

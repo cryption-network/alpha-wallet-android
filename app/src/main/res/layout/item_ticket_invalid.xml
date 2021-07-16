@@ -39,7 +39,7 @@
             android:textSize="21sp"
             android:fontFamily="@font/font_light"
             android:layout_marginBottom="5dp"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:text="" />
 
         <TextView

@@ -17,7 +17,7 @@
         android:shadowColor="@color/greyf6"
         android:text="@string/legacy_wallets"
         android:textAllCaps="true"
-        android:textColor="@color/dove"
+        android:textColor="@color/text_white"
         android:textSize="15sp" />
 
 </LinearLayout>

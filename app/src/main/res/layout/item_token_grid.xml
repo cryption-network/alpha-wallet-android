@@ -31,7 +31,7 @@
         android:lines="1"
         android:padding="@dimen/dp5"
         android:text="UEFA"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:visibility="visible"
         app:autoSizeMaxTextSize="@dimen/sp32"
         app:autoSizeMinTextSize="@dimen/sp24"
@@ -49,6 +49,6 @@
         android:lines="2"
         android:maxLines="2"
         android:text="Token Name"
-        android:textColor="@color/black" />
+        android:textColor="@color/text_white" />
 
 </LinearLayout>

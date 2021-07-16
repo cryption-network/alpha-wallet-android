@@ -39,6 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dp16"
+                    android:textColor="@color/text_white"
                     android:text="@string/value" />
 
                 <com.alphawallet.app.widget.ChainName
@@ -61,6 +62,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/dp16"
+                        android:textColor="@color/text_white"
                         tools:text="Sent"  />
 
                     <TextView
@@ -68,6 +70,7 @@
                         style="@style/TransactionDetailsStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/text_white"
                         tools:text="4238793"  />
 
                     <TextView
@@ -99,6 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp16"
+                android:textColor="@color/text_white"
                 android:text="@string/subtitle_transaction_hash_num" />
 
             <com.alphawallet.app.widget.CopyTextView
@@ -108,13 +112,14 @@
                 android:layout_height="wrap_content"
                 custom:gravity="start"
                 custom:bold="false"
-                custom:textColor="@color/mine"
+                custom:textColor="@color/text_white"
                 custom:marginRight="@dimen/dp18" />
 
             <TextView
                 style="@style/TransactionDetailsSubTitleStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 android:text="@string/subtitle_network" />
 
             <LinearLayout
@@ -137,6 +142,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
+                    android:textColor="@color/text_white"
                     android:text="@string/ethereum" />
 
             </LinearLayout>
@@ -145,6 +151,7 @@
                 style="@style/TransactionDetailsSubTitleStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 android:text="@string/subtitle_from" />
 
             <com.alphawallet.app.widget.CopyTextView
@@ -154,13 +161,14 @@
                 android:layout_height="wrap_content"
                 custom:gravity="start"
                 custom:bold="false"
-                custom:textColor="@color/mine"
+                custom:textColor="@color/text_white"
                 custom:marginRight="@dimen/dp18" />
 
             <TextView
                 style="@style/TransactionDetailsSubTitleStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 android:text="@string/subtitle_to" />
 
             <com.alphawallet.app.widget.CopyTextView
@@ -170,7 +178,7 @@
                 android:layout_height="wrap_content"
                 custom:gravity="start"
                 custom:bold="false"
-                custom:textColor="@color/mine"
+                custom:textColor="@color/text_white"
                 custom:marginRight="@dimen/dp18" />
 
             <LinearLayout
@@ -189,6 +197,7 @@
                         style="@style/TransactionDetailsSubTitleStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/text_white"
                         android:text="@string/subtitle_block" />
 
                     <LinearLayout
@@ -210,6 +219,7 @@
                             style="@style/TransactionDetailsStyle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/text_white"
                             tools:text="4238793" />
 
                     </LinearLayout>
@@ -227,6 +237,7 @@
                         style="@style/TransactionDetailsSubTitleStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/text_white"
                         android:text="@string/subtitle_gas_used" />
 
                     <LinearLayout
@@ -239,6 +250,7 @@
                             style="@style/TransactionDetailsStyle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/text_white"
                             tools:text="21,000" />
 
                         <TextView
@@ -246,6 +258,7 @@
                             android:layout_marginStart="@dimen/dp5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/text_white"
                             android:text="Gwei" />
 
                     </LinearLayout>
@@ -271,6 +284,7 @@
                         style="@style/TransactionDetailsSubTitleStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/text_white"
                         android:text="@string/subtitle_network_fee" />
 
                     <LinearLayout
@@ -283,6 +297,7 @@
                             style="@style/TransactionDetailsStyle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/text_white"
                             tools:text="0.002" />
 
                         <TextView
@@ -291,6 +306,7 @@
                             android:layout_marginStart="@dimen/dp5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/text_white"
                             android:text="@string/eth" />
                     </LinearLayout>
 
@@ -309,6 +325,7 @@
                         android:id="@+id/title_gas_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/text_white"
                         android:text="@string/subtitle_gas_price" />
 
                     <LinearLayout
@@ -339,6 +356,7 @@
                 style="@style/TransactionDetailsSubTitleStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 android:text="@string/subtitle_transaction_time" />
 
             <TextView
@@ -346,6 +364,7 @@
                 style="@style/TransactionDetailsStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 tools:text="September 4, 2017 at 2:32:12 PM" />
 
         </LinearLayout>

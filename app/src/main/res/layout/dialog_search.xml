@@ -18,7 +18,7 @@
         android:fontFamily="@font/font_light"
         android:gravity="center"
         android:text="@string/search_for"
-        android:textColor="@color/text_black"
+        android:textColor="@color/black"
         android:textSize="21sp" />
 
     <LinearLayout
@@ -42,7 +42,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/search_label_match"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -68,7 +68,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_search_class"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -101,7 +101,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_search_seats"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -127,7 +127,7 @@
                 android:fontFamily="@font/font_regular"
                 android:text="@string/filter_date_label"
                 android:textAllCaps="true"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/text_white"
                 android:textSize="10sp" />
 
             <Spinner
@@ -149,7 +149,7 @@
         android:gravity="center"
         android:text="@string/seekbar_label_default_value"
         android:textAllCaps="true"
-        android:textColor="@color/light_gray"
+        android:textColor="@color/text_white"
         android:textSize="10sp" />
 
     <androidx.appcompat.widget.AppCompatSeekBar
@@ -174,7 +174,7 @@
             android:fontFamily="@font/font_regular"
             android:text="@string/seekbar_min"
             android:textAllCaps="true"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/text_white"
             android:textSize="10sp" />
 
         <TextView
@@ -185,7 +185,7 @@
             android:gravity="center_horizontal"
             android:text="@string/filter_price_label"
             android:textAllCaps="true"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/text_white"
             android:textSize="10sp" />
 
         <TextView
@@ -197,7 +197,7 @@
             android:gravity="right"
             android:text="@string/seekbar_max"
             android:textAllCaps="true"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/text_white"
             android:textSize="10sp" />
     </LinearLayout>
 
@@ -218,7 +218,7 @@
         android:paddingTop="10dp"
         android:text="@string/btn_text_apply"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="20sp" />
 
 </LinearLayout>

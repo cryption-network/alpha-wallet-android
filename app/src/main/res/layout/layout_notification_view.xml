@@ -24,7 +24,7 @@
         android:layout_marginBottom="@dimen/dp16"
         android:fontFamily="@font/font_regular"
         android:text="Notification"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp24" />
 
     <TextView
@@ -35,7 +35,7 @@
         android:layout_marginEnd="@dimen/dp25"
         android:fontFamily="@font/font_regular"
         android:text="This is a notification"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp17" />
 
     <LinearLayout
@@ -56,7 +56,7 @@
             android:paddingRight="@dimen/dp17"
             android:text="Primary"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp17"
             android:visibility="gone" />
 
@@ -71,7 +71,7 @@
             android:paddingRight="@dimen/dp17"
             android:text="Secondary"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp17"
             android:visibility="gone" />
     </LinearLayout>

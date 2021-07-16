@@ -26,6 +26,6 @@
         android:layout_marginBottom="16dp"
         android:layout_marginStart="12dp"
         android:fontFamily="@font/font_light"
-        android:textColor="@color/black"/>
+        android:textColor="@color/text_white"/>
 
 </RelativeLayout>

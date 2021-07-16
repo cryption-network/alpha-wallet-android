@@ -24,7 +24,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="@dimen/dp16"
             android:fontFamily="@font/font_regular"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp17"
             tools:text="Setting Title" />
 
@@ -36,7 +36,7 @@
             android:layout_toEndOf="@id/token_definition_name"
             android:layout_marginStart="@dimen/dp10"
             android:fontFamily="@font/font_regular"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp15"
             tools:text="" />
 
@@ -59,7 +59,7 @@
         android:fontFamily="@font/font_regular"
         android:paddingStart="@dimen/dp16"
         android:paddingEnd="@dimen/dp16"
-        android:textColor="@color/black"
+        android:textColor="@color/text_white"
         android:ellipsize="end"
         android:maxLines="1"
         android:textSize="14sp"
@@ -82,7 +82,7 @@
             android:lines="1"
             android:maxLines="1"
             tools:text="Setting Subtitle"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="12sp" />
 
         <com.alphawallet.app.widget.ChainName
@@ -97,8 +97,8 @@
     </RelativeLayout>
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
         android:background="@color/silver" />
 
 </LinearLayout>
