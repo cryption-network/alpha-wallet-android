@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/full_large_margin"
         android:text="@string/message_scan_camera"
-        android:textColor="@color/white"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp17" />
 
     <LinearLayout

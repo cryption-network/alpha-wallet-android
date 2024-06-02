@@ -38,7 +38,6 @@ public class SelectCurrencyActivity extends BaseActivity {
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
             adapter = new CustomAdapter(currencyItems, currentCurrency);
             recyclerView.setAdapter(adapter);
-            recyclerView.addItemDecoration(new ListDivider(this));
         }
     }
 

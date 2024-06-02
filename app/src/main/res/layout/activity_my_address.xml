@@ -36,7 +36,7 @@
             android:gravity="center"
             android:paddingTop="@dimen/dp20"
             android:text="@string/scan_qr_label"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:textSize="@dimen/sp17"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -84,7 +84,7 @@
                 android:gravity="center_horizontal"
                 custom:gravity="center"
                 custom:bold="true"
-                custom:textColor="@color/black" />
+                custom:textColor="@color/text_white" />
 
         </LinearLayout>
 

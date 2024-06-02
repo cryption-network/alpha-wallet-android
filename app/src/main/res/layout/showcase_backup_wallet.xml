@@ -24,7 +24,7 @@
             android:layout_marginBottom="21dp"
             android:fontFamily="@font/font_regular"
             android:text="@string/title_back_up_your_wallet"
-            android:textColor="@color/text_black"
+            android:textColor="@color/text_white"
             android:gravity="center_horizontal"
             android:textSize="25sp" />
 
@@ -35,18 +35,18 @@
             android:layout_marginBottom="23dp"
             android:fontFamily="@font/font_regular"
             android:text="@string/nudge_user_to_backup_wallet"
-            android:textColor="@color/text_dark_gray"
+            android:textColor="@color/text_white"
             android:textSize="17sp" />
 
         <Button
             android:id="@+id/btn_close"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/nasty_green"
+            android:background="@drawable/watch_bg"
             android:elevation="2dp"
             android:text="@string/action_close"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/text_white"
             android:textSize="16sp"
             android:textStyle="normal" />
 

@@ -114,7 +114,6 @@ public class GasSettingsActivity extends BaseActivity implements GasSettingsCall
 
         adapter = new CustomAdapter(this);
         recyclerView.setAdapter(adapter);
-        recyclerView.addItemDecoration(new ListDivider(this));
         gasSliderView.setCallback(this);
 
         // start listening for gas price updates

@@ -323,7 +323,7 @@ public class ConfirmationActivity extends BaseActivity implements SignAuthentica
                 nonce = BigInteger.valueOf(nonceId);
                 amount = BigDecimal.ZERO;
                 amountString = getString(R.string.cancel_tx_description);
-                valueText.setTextColor(getColor(R.color.text_black));
+                valueText.setTextColor(getColor(R.color.black));
                 symbolText.setVisibility(View.GONE);
                 oldGasPrice = new BigInteger(getIntent().getStringExtra(C.EXTRA_GAS_PRICE));
                 oldGasLimit = new BigInteger(getIntent().getStringExtra(C.EXTRA_GAS_LIMIT));

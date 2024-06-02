@@ -6,19 +6,21 @@
     <com.alphawallet.app.ui.widget.entity.ScrollControlViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@color/transparent"/>
 
     <com.alphawallet.app.widget.AWalletBottomNavigationView
         android:id="@+id/nav"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:layout_gravity="bottom" />
+        android:layout_gravity="bottom"
+        android:background="@color/transparent"/>
 
     <LinearLayout
         android:id="@+id/layout_success_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/blur"
+        android:background="@color/transparent"
         android:gravity="center"
         android:visibility="gone">
 

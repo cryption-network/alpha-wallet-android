@@ -60,7 +60,7 @@ public class WalletHolder extends BinderViewHolder<Wallet> implements View.OnCli
 		clickCallback = callback;
 		manageWalletLayout = findViewById(R.id.layout_manage_wallet);
 		greyColor = parent.getContext().getColor(R.color.greyffive);
-		blackColor = parent.getContext().getColor(R.color.text_black);
+		blackColor = parent.getContext().getColor(R.color.black);
 		this.realm = realm;
 	}
 
@@ -94,7 +94,7 @@ public class WalletHolder extends BinderViewHolder<Wallet> implements View.OnCli
 				walletNameText.setVisibility(View.GONE);
 			}
 
-			walletIcon.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
+//			walletIcon.setImageBitmap(Blockies.createIcon(wallet.address.toLowerCase()));
 
 			String walletBalance = wallet.balance;
 			if (!TextUtils.isEmpty(walletBalance) && walletBalance.startsWith("*"))

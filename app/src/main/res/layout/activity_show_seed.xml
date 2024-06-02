@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
     <include layout="@layout/layout_white_toolbar" />
 
@@ -19,7 +20,7 @@
         android:paddingEnd="50dp"
         android:text="@string/beware_of_scammers"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp28"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +51,7 @@
         android:paddingEnd="40dp"
         android:text="@string/alphawallet_never_ask"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/text_white"
         android:textSize="@dimen/sp18"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

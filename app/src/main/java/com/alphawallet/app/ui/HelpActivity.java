@@ -47,6 +47,7 @@ public class HelpActivity extends BaseActivity {
         list.setLayoutManager(new LinearLayoutManager(this));
         HelpAdapter adapter = new HelpAdapter();
         webView = findViewById(R.id.webview);
+        webView.setBackgroundColor(getColor(R.color.cry_secondary_bg));
 
         /* Placeholder only */
         int[] questions = {

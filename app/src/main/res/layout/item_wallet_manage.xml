@@ -3,7 +3,9 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/cry_bg_overlay"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
     android:descendantFocusability="blocksDescendants"
     android:minHeight="80dp"
     android:orientation="horizontal"
@@ -35,7 +37,8 @@
             android:id="@+id/wallet_icon"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginStart="10dp" />
+            android:layout_marginStart="10dp"
+            android:src="@drawable/cryption_logo"/>
     </LinearLayout>
 
 
@@ -61,7 +64,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/font_regular"
             android:text="3.2345"
-            android:textColor="@color/text_black"
+            android:textColor="@color/black"
             android:textIsSelectable="true"
             android:textSize="20sp" />
 
@@ -72,7 +75,7 @@
                 android:fontFamily="@font/font_light"
                 android:text="ETH"
                 android:layout_marginStart="5dp"
-                android:textColor="@color/text_black"
+                android:textColor="@color/black"
                 android:textIsSelectable="true"
                 android:textSize="16sp" />
 
@@ -90,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/font_regular"
                 android:text="user.eth"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="12sp" />
 
             <TextView
@@ -101,7 +104,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:text="|"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="12sp" />
 
             <TextView
@@ -112,7 +115,7 @@
                 android:fontFamily="@font/font_regular"
                 android:singleLine="true"
                 android:text="0xe9f5cc10a54125828d7fc6b6fb0f784f731e33bf"
-                android:textColor="@color/dove"
+                android:textColor="@color/text_white"
                 android:textSize="12sp" />
         </LinearLayout>
 

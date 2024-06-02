@@ -19,6 +19,6 @@
     <item>
         <bitmap
             android:gravity="end"
-            android:src="@drawable/ic_dropdown_caret" />
+            android:src="@drawable/ic_dropdown_caret_white" />
     </item>
 </layer-list>

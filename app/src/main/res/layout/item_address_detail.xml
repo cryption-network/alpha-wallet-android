@@ -8,8 +8,8 @@
     android:orientation="vertical">
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
         android:background="@color/mercury" />
 
     <LinearLayout
@@ -26,7 +26,7 @@
         android:layout_weight="1.1"
         android:layout_marginStart="@dimen/dp16"
         android:text="@string/recipient"
-        android:textColor="@color/dove"
+        android:textColor="@color/text_white"
         android:fontFamily="@font/font_regular"
         android:gravity="start"
         android:textSize="@dimen/sp13"/>
@@ -36,7 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="3.1"
-        android:textColor="@color/black"
+        android:textColor="@color/text_white"
         android:fontFamily="@font/font_semibold"
         android:gravity="start"
         tools:text="pablo.eth | 0x123456...0421"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dp16"
             android:text="@string/wallet_address"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             android:gravity="start"
             android:textSize="@dimen/sp13"/>
@@ -78,7 +78,7 @@
             android:layout_marginTop="@dimen/dp5"
             android:layout_marginStart="@dimen/dp16"
             android:layout_marginEnd="40dp"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:gravity="start"
             android:fontFamily="@font/font_regular"
             tools:text="0x6EBaF477F83E055589C1188bCC6DDCCD8C9B131a"
@@ -91,7 +91,7 @@
             android:layout_marginTop="@dimen/dp10"
             android:layout_marginBottom="@dimen/dp10"
             android:text="@string/ens_name"
-            android:textColor="@color/dove"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             android:gravity="start"
             android:textSize="@dimen/sp13"/>
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dp16"
-            android:textColor="@color/black"
+            android:textColor="@color/text_white"
             android:fontFamily="@font/font_regular"
             tools:text="pablo.eth"
             android:textSize="@dimen/sp18"/>

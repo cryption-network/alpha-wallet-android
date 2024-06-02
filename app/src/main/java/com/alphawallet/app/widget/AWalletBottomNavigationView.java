@@ -81,20 +81,16 @@ public class AWalletBottomNavigationView extends LinearLayout {
         selectedItem = index;
         switch (index) {
             case DAPP_BROWSER:
-                dappBrowser.setImageResource(R.drawable.ic_tab_browser_active);
-                dappBrowserLabel.setTextColor(getResources().getColor(R.color.colorHighlight, getContext().getTheme()));
+                dappBrowser.setImageResource(R.drawable.nav_network_selected);
                 break;
             case WALLET:
-                wallet.setImageResource(R.drawable.ic_tab_wallet_active);
-                walletLabel.setTextColor(getResources().getColor(R.color.colorHighlight, getContext().getTheme()));
+                wallet.setImageResource(R.drawable.nav_wallet_selected);
                 break;
             case SETTINGS:
-                settings.setImageResource(R.drawable.ic_tab_settings_active);
-                settingsLabel.setTextColor(getResources().getColor(R.color.colorHighlight, getContext().getTheme()));
+                settings.setImageResource(R.drawable.nav_settings_selected);
                 break;
             case ACTIVITY:
-                activity.setImageResource(R.drawable.ic_tab_activity_active);
-                activityLabel.setTextColor(getResources().getColor(R.color.colorHighlight, getContext().getTheme()));
+                activity.setImageResource(R.drawable.nav_activity_selected);
                 break;
         }
     }
@@ -104,10 +100,10 @@ public class AWalletBottomNavigationView extends LinearLayout {
     }
 
     private void deselectAll() {
-        dappBrowser.setImageResource(R.drawable.ic_tab_browser);
-        wallet.setImageResource(R.drawable.ic_tab_wallet);
-        settings.setImageResource(R.drawable.ic_tab_settings);
-        activity.setImageResource(R.drawable.ic_tab_activity);
+        dappBrowser.setImageResource(R.drawable.nav_network);
+        wallet.setImageResource(R.drawable.nav_wallet);
+        settings.setImageResource(R.drawable.nav_settings);
+        activity.setImageResource(R.drawable.nav_activity);
         //reset text colour
         dappBrowserLabel.setTextColor(getContext().getColor(R.color.dove));
         walletLabel.setTextColor(getContext().getColor(R.color.dove));

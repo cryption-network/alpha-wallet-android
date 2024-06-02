@@ -40,7 +40,6 @@ public class SelectLocaleActivity extends BaseActivity {
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
             adapter = new CustomAdapter(localeItems, currentLocale);
             recyclerView.setAdapter(adapter);
-            recyclerView.addItemDecoration(new ListDivider(this));
         }
     }
 

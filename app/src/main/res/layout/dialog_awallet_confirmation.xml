@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="40dp"
     android:background="@drawable/background_marketplace_event"
     android:orientation="vertical"
@@ -16,27 +17,29 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/font_light"
         android:gravity="center"
-        android:textColor="@color/text_black"
+        android:textColor="@color/text_white"
         android:textSize="25sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/super_light_grey"
+        android:background="@drawable/cry_bg_overlay"
         android:orientation="vertical"
         android:layout_marginBottom="30dp"
-        android:padding="30dp">
+        android:padding="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp">
 
         <TextView
-            android:visibility="gone"
             android:id="@+id/dialog_small_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/font_light"
             android:gravity="center"
-            android:textColor="@color/text_black"
+            tools:text="Hi"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <TextView
@@ -46,9 +49,10 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/font_bold"
             android:gravity="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:visibility="gone"
-            android:textSize="20sp" />
+            android:textColor="@color/text_white"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            tools:text="Do you wish to Enable Token Config Override Directory?"/>
 
         <TextView
             android:visibility="gone"
@@ -58,7 +62,7 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/font_bold"
             android:gravity="center"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/text_white"
             android:textSize="41sp" />
 
     </LinearLayout>
@@ -79,28 +83,29 @@
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/font_light"
             android:gravity="center"
-            android:textColor="@color/text_black"
+            android:textColor="@color/black"
             android:textSize="25sp" />
 
         <LinearLayout
             android:id="@+id/dialog_button1_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginVertical="10dp"
             android:gravity="center"
-            android:background="@drawable/background_round_primary">
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
 
             <Button
                 android:id="@+id/dialog_button1"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/transparent"
+                android:background="@drawable/bg_gradient"
                 android:fontFamily="@font/font_regular"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
+                android:textColor="@color/text_white"
                 android:textSize="20sp" />
 
             <ImageView
@@ -121,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="@color/white"
+            android:background="@color/colorPrimary"
             android:fontFamily="@font/font_regular"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"

@@ -64,7 +64,9 @@ public class SelectNetworkActivity extends SelectNetworkBaseActivity implements 
             // Previous active network was deselected, get the first item in filtered networks
             if (selectedChainId == -1)
             {
-                selectedChainId = Utils.intListToArray(viewModel.getFilterNetworkList()).get(0);
+                Integer polygonId = 137;
+                List<Integer> chainsList = Utils.intListToArray(viewModel.getFilterNetworkList());
+                selectedChainId= chainsList.contains(polygonId) ? chainsList.get(chainsList.indexOf(polygonId)) : chainsList.get(0);
             }
 
             if (localSelectionMode)

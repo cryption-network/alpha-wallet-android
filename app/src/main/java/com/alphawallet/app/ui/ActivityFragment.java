@@ -224,7 +224,6 @@ public class ActivityFragment extends BaseFragment implements View.OnClickListen
         listView = view.findViewById(R.id.list);
         listView.setLayoutManager(new LinearLayoutManager(getContext()));
         listView.setAdapter(adapter);
-        listView.addItemDecoration(new RecycleViewDivider(getContext()));
         listView.setRecyclerListener(holder -> adapter.onRViewRecycled(holder));
 
         systemView.attachRecyclerView(listView);
